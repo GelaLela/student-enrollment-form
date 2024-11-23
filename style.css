@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dbc9ff;
+    padding: 20px;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid #9c9cff;
+    padding: 5px;
+    border-radius: 1px;
+    width: auto;
+}
+h3{
+    text-align: left;
+    border: 1px solid #9c9cff;
+    padding: 5px;
+    border-radius: 1px;
+    width: auto;
+}
+
+
+.input-fields {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #9c9cff;
+    border-radius: 5px;
+}
+.stud-list{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #9c9cff;
+    border-radius: 1px;
+}
+
+
+fieldset {
+    border: 3px solid #9c9cff;
+    padding: 10px;
+    border-radius: 1px;
+    width: auto;
+}
+
+
+input[type="text"], input[type="email"], input[type="number"], select, button {
+    width: 98%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 2px solid #9c9cff;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #9ed8e8;
+    color: 5e2e53;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #9ed8e8;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+    border: 2px solid #9c9cff;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #9c9cff;
+}
+th{
+    background-color: #8284e8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-fields, .stud-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
